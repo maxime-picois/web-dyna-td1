@@ -6,9 +6,9 @@
 </head>
 <body>
 	<?php
-	$size = $_POST['size'] ?? 20;
+	$size = $_POST['taille'] ?? 20;
 	$color = $_POST['couleur'] ?? 'red';
-	$message = $_POST['message'] ?? 'Pas de message';
-	echo "<div style='font-size: {$size}px; color: {$color} ;'>Message de taille {$size}px en {$message}</div>";
+	$message = $_POST['msg'] ?? 'Pas de message';
+	echo "<div style='font-size: {$size}px; color: {$color} ;'>Message de taille {$taille}px en {$msg}</div>";
 
 	?>
