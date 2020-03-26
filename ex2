@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exercice n°2</title>
+</head>
+<body>
+
+	<a href="?message=Rouge&size=15&couleur=red">Rouge en 15</a><br>
+	<a href="?message=Vert&size=30&couleur=green">Vert en 30</a><br>
+	<a href="?message=Yellow&size=40&couleur=blue">Jaune en 40</a><br>
+	
+
+
+</body>
+</html>
