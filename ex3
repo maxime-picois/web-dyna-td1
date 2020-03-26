@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exercice n°3</title>
+</head>
+<body>
+	<?php
+	$size = $_POST['size'] ?? 20;
+	$color = $_POST['couleur'] ?? 'red';
+	$message = $_POST['message'] ?? 'Pas de message';
+	echo "<div style='font-size: {$size}px; color: {$color} ;'>Message de taille {$size}px en {$message}</div>";
+
+	?>
